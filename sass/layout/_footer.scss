@@ -1,0 +1,41 @@
+footer{
+    background-color: black;
+    color: white;
+    .footer-ul{
+        display: flex;
+        justify-content: center;
+        ul{
+            gap: 50px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            padding-top: 20px;
+            li{
+                transition: 0.3s;
+                cursor: pointer;
+            }
+            li:hover{
+                color: rgba(182, 171, 167, 0.567);
+            }
+
+        }
+    }
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        gap: 10px;
+        padding-bottom: 80px;
+       
+        i{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+            
+            
+        }
+        
+    }
+}

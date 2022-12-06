@@ -1,0 +1,152 @@
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../assets/img/homeimg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .home-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+        .first-h2{
+            margin-top: 8%;
+        }
+        h2{
+            font-size: 70px;
+            color: white;
+            font-weight: 800;
+            
+        }
+        p{
+            font-size: 35px;
+            font-weight: 600;
+        }
+        h3{
+            font-size: 40px ;
+            font-weight: 600;
+        }
+    }
+    .kargo-type{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 60px;
+        padding-bottom: 70px;
+        
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            opacity:0.8 ;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            i{
+                font-size: 70px;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+            svg{
+                width: 80px;
+                height: auto;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}.information-section{
+        min-height: 200vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        .left{
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            gap: 200px  ;
+            padding-top: 50px;
+            .info-left{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                h2{
+                    font-size: 78px;
+                }
+                h4{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+                img{
+                    width: 335px;
+                    height: auto;
+                }
+            }
+        }
+    .right{
+        max-width: 450px;
+        margin-top: 25%;
+        display: flex;
+            flex-direction: column;
+            gap: 80px  ;
+        .info-right{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding-bottom: 60px;
+            h2{
+                font-size: 78px;
+            }
+            h4{
+                font-size: 25px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 300;
+            }
+            img{
+                width: 335px;
+                height: auto;
+            }
+        }
+    }
+    }
+    .data{
+        width: 100%;
+        min-height: 55vh;
+        background-image:url(../../assets/img/simit.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        h4{
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        h2{
+            font-size: 80px;
+            font-weight: 800;
+        }
+        p{
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
